@@ -1,15 +1,12 @@
-//
-//  main.c
-//  asd
-//
-//  Created by s20181106278 on 2019/9/24.
-//  Copyright © 2019 qwe. All rights reserved.
-//
-
 #include <stdio.h>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
-    return 0;
+int main() {
+    int i=5;
+    int j=10;
+    char p;
+    p=(char *)i;
+    printf("*p=%x\n",p);
+    printf("*p=%x\n",(p+3));
+    printf("sum=%x\n",i+j);
+    printf("i=%x\n",&i);
 }
